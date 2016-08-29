@@ -1,5 +1,5 @@
 from django.conf.urls import include, url, patterns
-import django.contrib.auth.views
+from django.contrib.auth import views
 
 from django.contrib import admin
 admin.autodiscover()
